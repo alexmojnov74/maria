@@ -9,24 +9,28 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
   integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="CSS/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
     <title>Maria Dmitrieva</title>
 
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed&display=swap" rel="stylesheet">
 
-
-
+    
 </head>
 
 <body>
 <header>
+
+                
 <h1 class="header">Maria Dmitrieva</h1>
+
+
 
 <div id="nav">
 <ul class="nav justify-content-end">
@@ -34,12 +38,17 @@
       <a class="nav-link active" href="#">About Me</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#Latest">Latest</a>
+      <a class="nav-link" href="#Discography">Discography</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
+      <a class="nav-link" href="#">iTunes</a>
     </li>
-    
+    <li class="nav-item">
+            <a class="nav-link" href="#Events">Events</a>
+    </li>
+    <li class="nav-item">
+            <a class="nav-link" href="#Contacts">Contacts</a>
+    </li>
   </ul>
 
 </div>
@@ -47,78 +56,153 @@
 </header>
 
 <section class="main">
-    <h2>About Me</h2>
-    <hr>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</p>
+
+        <div class="jumbotron">
+                <h1 class="display-4">Hello, world!</h1>
+                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                <hr class="my-4">
+                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+              </div>
+
 <br>
 <br>
 
 
 <h2>See What is New</h2>
 
-    <container class="single">
-    <div class="image">
-            <img src="Images/maria2.jpg" width="400" height="260"/>
-    </div> 
-    <div class="singlesong">
-        <p>Nam tristique ex vel magna tincidunt, ut porta nisl finibus. Vivamus eu dolor eu quam varius rutrum. Fusce nec justo id sem aliquam fringilla nec non lacus. 
-                Suspendisse eget lobortis nisi, ac cursus odio. Vivamus nibh velit, rutrum at ipsum ac, dignissim iaculis ante. Donec in velit non elit pulvinar pellentesque et non eros.</p>
-    </div>
-    <audio class="audio" preload="auto" controls>
-        <source src="audio/dummy-audio.mp3">
-    </audio>
-    
-   </container>
+<container class="single">
+ 
+<div class="media">
+        <img src="Images/maria2.jpg" class="align-self-start mr-3" alt="Maria Dmitrieva" width="270" height="270"/>
+        <div class="media-body">
+          <h5 class="mt-0">Top-aligned media</h5>
+          <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+        <div class="audio">
+          <audio preload="auto" controls>
+                <source src="Audio/dummy-audio.mp3"  type="audio/mpeg"/>
+            </audio>
+        </div>
+
+      </div>
+        </div>
+        
+</container>
 
 
 </section>
 
 <section class="main">
-<div class="work">
-<h2><a name="Latest">Latest</a></h2>
+        <h2><a name="Discography">Discography</a></h2>    
+
+
         <div class="box">    
-                <img src="Images/a3.jpg" width="200" height="200"/>
-                <div class="box-text1">Hungman</div>
+                <img id="image1" src="Images/a3.jpg" class="img-thumbnail" />
+                <div class="middle">
+                        <div class="text">Prodigy</div>
+                </div>
         </div>
 
         <div class="box">
-                <img src="Images/a4.jpg" width="200" height="200"/>
-                <div class="box-text2">RPG Game</div>
+                <img id="image1" src="Images/a4.jpg" class="img-thumbnail"/>
+                <div class="middle">
+                        <div class="text">Prodigy</div>
+                </div>
         </div>
         
         <div class="box">
-                <img src="Images/a5.jpg" width="200" height="200"/>
-                <div class="box-text3">Trivia Game</div>
+                <img id="image1" src="Images/a5.jpg" class="img-thumbnail" />
+                <div class="middle">
+                        <div class="text">Prodigy</div>
+                </div>
         </div>
         <div class="box">
-                <img src="Images/a7.jpg" width="200" height="200"/>
-                <div class="box-text4">Rutgers Info Widjet</div>
+                <img id="image1" src="Images/a7.jpg" class="img-thumbnail" />
+                <div class="middle">
+                        <div class="text">Prodigy</div>
+                </div>
         </div>
         <div class="box">
-                <img src="Images/b2.jpg" width="200" height="200"/>
-                <div class="box-text5">Rock Paper Scissors</div>
+                <img id="image1" src="Images/b2.jpg" class="img-thumbnail" />
+                <div class="middle">
+                        <div class="text">Prodigy</div>
+                </div>
         </div>
         <div class="box">
-                <img src="Images/b3.jpg" width="200" height="200"/>
-                <div class="box-text6">Rock Paper Scissors</div>
+                <img id="image1" src="Images/b3.jpg" class="img-thumbnail" />
+                <div class="middle">
+                        <div class="text">Prodigy</div>
+                </div>
         </div>
-</div>
+
 
 </section>
+
+<section class="events">
+        <h2><a name="Events">Events</a></h2>
+        <ul class="list-unstyled">
+                <li class="media my-4">
+                  <img src="Images/b3.jpg" class="mr-3" alt="Concert1">
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  </div>
+                  <div id="tickets">
+                        <button class="button">Get Tickets</button>
+                  </div>
+                </li>
+                <li class="media my-4">
+                  <img src="Images/b2.jpg" class="mr-3" alt="Concert2">
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  </div>
+                  <div id="tickets">
+                        <button class="button">Get Tickets</button>
+                  </div>
+                </li>
+                <li class="media my-4">
+                  <img src="Images/a7.jpg" class="mr-3" alt="Concert3">
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  </div>
+                  <div id="tickets">
+                        <button class="button">Get Tickets</button>
+                  </div>
+                </li>
+              </ul>
+</section>
+
+<section class="contacts">
+        <h2><a name="Contacts">Contacts</a></h2>
+        <div id="contacts">
+        <form>
+                Name:<br>
+                <input type="text" name="name" placeholder="Your name.."><br>
+                Email:<br>
+                <input type="text" name="email" placeholder="Your email.."> <br>
+                Message:<br>
+                <textarea name="message" rows="7" cols="113" placeholder="Tell me what you need"></textarea><br><br>
+
+                <button class="button">Submit</button><br>
+        </form>
+    </div>
+</section>
+
+<div class="icon-bar">
+        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+        <a href="#" class="google"><i class="fa fa-google"></i></a> 
+        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+      </div>
 
 
 
 
 <footer>
-
+<p id="footer">Maria Dmitrieva. All Rights Reserved. 2019. <br>Designed by Alex Mojnov</p>
 </footer>
 
 </body>
