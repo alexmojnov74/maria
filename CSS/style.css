@@ -1,0 +1,185 @@
+/* CSS style sheet main */
+
+
+
+body {
+    /*background-color: linear-gradient(to right,#0b0b0b , #a5117d);*/
+    background-color:#0b0b0b;
+    background-image: url("../Images/maria1.jpg");
+    background-position: top;
+    background-position-x: left;
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h2 {
+    font-family: 'Kodchasan', sans-serif;
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+hr {
+    border: 1px solid white;
+}
+
+img {
+    padding: 10px;
+    
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
+.name {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.header {
+    position: absolute;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 36px;
+    color: white;
+    float: left;
+    margin-left: 400px;
+    margin-top: -150px;
+}
+
+#nav {
+    float: right;
+    position: relative;
+    margin-right: 300px;
+    margin-top: -150px;
+    font-size: 14px;
+    font-size: 18px;
+}
+
+.nav-link {
+    color:white;
+}
+
+.main {
+    position: relative;
+    margin-top:200px;
+    margin-left: 600px;
+    margin-right: 400px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 14px;
+    color: white;
+}
+
+.box {
+    float:left;
+    position:relative;
+    widows: 23px;
+
+}
+
+.work {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 150px;
+  
+}
+
+.box-text1 {
+    position: absolute;
+    top: 150px;
+    margin-left: 5%;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 5px 57px 5px 60px;
+    color: black;
+    font-size: 16px;
+}
+
+.box-text2 {
+    position: absolute;
+    top: 150px;
+    margin-left: 5%;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 5px 54px 5px 60px;
+    color: black;
+    font-size: 16px;
+}
+
+.box-text3 {
+    position: absolute;
+    top: 150px;
+    margin-left: 5%;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 5px 50px 5px 50px;
+    color: black;
+    font-size: 16px;
+}
+
+.box-text4 {
+    position: absolute;
+    top: 150px;
+    margin-left: 5%;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 5px 27px 5px 27px;
+    color: black;
+    font-size: 16px;
+}
+
+.box-text5 {
+    position: absolute;
+    top: 150px;
+    margin-left: 5%;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 5px 26px 5px 26px;
+    color: black;
+    font-size: 16px;
+}
+
+.box-text6 {
+    position: absolute;
+    top: 150px;
+    margin-left: 5%;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 5px 26px 5px 27px;
+    color: black;
+    font-size: 16px;
+}
+
+.image {
+    position: absolute;
+    z-index: 1;
+}
+
+.audio {
+    position: relative;
+    margin-left: 320px;
+    margin-top: 50px;
+    float: left;
+    z-index: 1;
+    width: calc(100% - 450px);
+    background-color: #262626;
+    
+}
+.singlesong {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 250px;
+    float: left;
+    z-index: 1;
+}
+
+.single {
+    position: relative;
+    border: 1px solid white;
+    border-radius: 15px;
+    float: left;
+    padding-bottom: 10px;
+    
+}
