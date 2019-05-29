@@ -1,7 +1,5 @@
 /* CSS style sheet main */
 
-
-
 body {
     /*background-color: linear-gradient(to right,#0b0b0b , #a5117d);*/
     background-color:#070707;
@@ -22,13 +20,24 @@ body {
   color: white;
 }
 
+h1 {
+  font-family: 'Kodchasan', sans-serif;
+  color: white;
+  font-size: 3vw;
+}
+
 h2 {
     font-family: 'Kodchasan', sans-serif;
     color: white;
-    font-size: 18px;
     text-align: left;
     padding-bottom: 20px;
     padding-top: 20px;
+    font-size: 1.5vw;
+}
+
+h5 {
+    text-align: left;
+    font-size: 1.3vw;
 }
 
 hr {
@@ -36,15 +45,24 @@ hr {
 }
 
 img {
-    padding: 10px;
+  padding: 5px;
+  z-index: 2;
 }
 
 
-p {
+p { 
     padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 10px;
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 0.9vw;
 }
+
+footer {
+  clear: both;
+  position: relative;
+  height: 100px;
+  margin-top: -40px;
+}
+
 .name {
     font-family: 'Titillium Web', sans-serif;
 }
@@ -61,12 +79,11 @@ p {
 }
 
 #nav {
-    float: right;
+    float: left;
     position: relative;
-    margin-right: 300px;
-    margin-top: -40px; 
-    font-size: 14px;
-    font-size: 18px;
+    margin-left: 60%;
+    margin-top: -45px; 
+    font-size: 1vw;
 }
 
 .nav-link {
@@ -99,13 +116,10 @@ p {
 .audio {
     position: relative;
     float: left;
-    margin-left: 140px;
-    padding-top: 30px;
     z-index: 1;
-    
-   
-    
+    overflow: auto;
 }
+
 .singlesong {
     position: relative;
     margin-top: 20px;
@@ -114,24 +128,15 @@ p {
     z-index: 1;
 }
 
-.single {
-    
-    position: relative;
-    border: 1px solid white;
-    border-radius: 15px;
-    float: left;
-    padding-top: 15px;
-    
-    
-    
-}
+
 #image1 {
     opacity: 1;
     display: block;
     width: 200px;
-    height: 200px;
     transition: .5s ease;
     backface-visibility: hidden;
+    max-width:100%;
+    height:auto;
   }
 
   .middle {
@@ -161,29 +166,53 @@ p {
   }
   
 .jumbotron {
+    position: relative;
+    float: left;
     background-image: linear-gradient(to right,#0b0b0b , #a5117d);
     border: 1px solid white;
     border-radius: 10px 0px 10px 0px;
     font-family: 'Kodchasan', sans-serif;
-  
-}
+    font-size: 1vw;
+  }
+
+.lead {
+  font-family: 'Kodchasan', sans-serif;
+  font-size: 1.5vw;
+  }
 
 .events {
     
     position: relative;
-    margin-left: 610px;
-    margin-right: 400px;
-    font-family: 'Fira Sans Condensed', sans-serif;
-    font-size: 14px;
-    color: white;
+    float: left;
+    width: 100%;   
+    overflow: auto;
+   
 }
 .mr-3 {
     width: 250px;
     height: 250px;
+    max-width:250px;
+    
+}
+
+.records {
+  position: relative;
+  border: 1px solid white;
+  border-radius: 10px 0px 10px 0px;   
+  width: 100%;
+}
+
+.media {
+    position: relative;
+    border: 1px solid white;
+       
 }
 
 .media-body {
-    padding-top: 10px;
+  position: relative;
+  padding: 10px 5px 0px 0px;
+  overflow: auto;
+
 }
 
 #tickets {
@@ -194,6 +223,8 @@ p {
 }
 
 .button {
+    position: relative;
+    float: left;
     background-color: grey;
     border: none;
     color: white;
@@ -211,25 +242,26 @@ p {
   .button:hover {opacity: 5}
 
 .my-4 {
-    background-image: linear-gradient(to right,#0b0b0b , #a5117d);
+    background-image: linear-gradient(to right,#0b0b0b , #0b0b0b,#a5117d);
     border-radius: 5px;
+    border-radius: 10px 0px 10px 0px;
 }
 
 .contacts {
     position: relative;
-    margin-top:200px;
-    margin-left: 620px;
-    margin-right: 410px;
+    float: left;
+    width: 100%;
     font-family: 'Fira Sans Condensed', sans-serif;
     font-size: 14px;
     color: white;
+    overflow: auto;
 }
 #contacts {
+    overflow: auto;
     padding: 20px 30px 10px 30px;
     background-image: linear-gradient(to right,#0b0b0b , #a5117d);
     border: 1px solid white;
     border-radius: 10px 0px 10px 0px;
-    
 }
 
 input[type=text] {
@@ -247,12 +279,7 @@ textarea {
     box-sizing: border-box;
     border-radius: 5px;
 }
-footer {
-    position: absolute;
-    padding-top: 100px;
-    left: 48%;
 
-}
 
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
@@ -311,7 +338,12 @@ footer {
   }
 
   #footer {
-      font-size: 10px;
-      color: white;
-      text-align: center;
+    position: absolute;
+    color: white;
+    margin-left: 210px;
+    
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 10px;
+    text-align: center;
+   
   }
