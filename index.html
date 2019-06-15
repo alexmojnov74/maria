@@ -2,228 +2,325 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="CSS/reset.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
-  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="CSS/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="CSS/reset.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+                integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+                crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="CSS/style.css">
 
-    <!-- Title -->
-    <title>Maria Dmitrieva</title>
+        <link rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/601402eba8.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="responsiveslides.min.js"></script>
+        
 
-    <!-- Google Fonts -->
-    
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed&display=swap" rel="stylesheet">
+        <!-- Title -->
+        <title>Maria Dmitrieva</title>
 
-    
+        <!-- Google Fonts -->
+
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed&display=swap" rel="stylesheet">
+
+        
+
 </head>
 
 <body>
-<header>
-
-                
-<h1 id="name">Maria Dmitrieva</h1>
-
-
-
-<div id="nav">
-<ul class="nav justify-content-end">
-    <li class="nav-item">
-      <a class="nav-link active" href="#">About Me</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#Discography">Discography</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">iTunes</a>
-    </li>
-    <li class="nav-item">
-            <a class="nav-link" href="#Events">Events</a>
-    </li>
-    <li class="nav-item">
-            <a class="nav-link" href="#Contacts">Contacts</a>
-    </li>
-  </ul>
-
-</div>
-
-</header>
-
-<section class="main">
-
-        <div class="jumbotron">
-                <h1>Hello, world!</h1>
-                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                <hr class="my-4">
-                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-        </div>
-
-<br>
-<br>
-
-<section class="events">
-                <h2><a name="Events">New Records</a></h2>
-                <ul class="list-unstyled">
-                        <li class="media my-4">
-                          <img src="Images/maria2.jpg" class="mr-3" alt="Concert1"/>
-                <div class="media-body">
-                            <h5 class="mt-0 mb-1">List-based media object</h5>
-                        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
-                                Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. 
-                                Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                        <div class="audio">
-                                        <audio preload="auto" controls>
-                                        <source src="Audio/dummy-audio.mp3"  type="audio/mpeg"/>
-                                        </audio>
-                        </div>
-                
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#">Maria Dmitrieva</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#Records">Records</a>
+                    <a class="nav-item nav-link" href="#Events">Concerts</a>
+                    <a class="nav-item nav-link" href="#Contacts">Contact Me</a>
                 </div>
-                
-                </li>
-                        <!--<li class="media my-4">
-                          <img src="Images/b2.jpg" class="mr-3" alt="Concert2"/>
-                          <div class="media-body">
-                            <h5 class="mt-0 mb-1">List-based media object</h5>
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                          </div>
-                          <div id="tickets">
-                                <button class="button">Get Tickets</button>
-                          </div>
-                        </li>
-                        <li class="media my-4">
-                          <img src="Images/a7.jpg" class="mr-3" alt="Concert3"/>
-                          <div class="media-body">
-                            <h5 class="mt-0 mb-1">List-based media object</h5>
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                          </div>
-                          <div id="tickets">
-                                <button class="button">Get Tickets</button>
-                          </div>
-                        </li>
-                --->
-                </ul>
+                </div>
+              </nav>
+
+        
+<section>
+        <div class="container">
+                <div class="jumbotron">
+                        <h1>Hi, my name is Maria!</h1>
+                                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                
+                                
+                        </div>
+                </div>
 </section>
 
-             
-<container class="main">        
-        <h2><a name="Discography">Discography</a></h2> 
+<section>
+<div class="container">
+                
+<img src="Images/concert.jpg" style="width: 1110px"/>
 
-        <div class="box">    
-                <img id="image1" src="Images/a3.jpg" class="img-thumbnail"/>
-                <div class="middle">
-                        <div class="text">Prodigy</div>
+</div>
+        
+</section>
+
+
+
+<!--New Records-->
+<section>
+                <a name="Records"></a>
+        <div class="container">
+                <h2>New Records</h2>
+                <div class="row">
+                        <div class="col-sm-6">
+                                <div class="card">
+                                <div class="card-body">
+                                 <h5 class="card-title">Record 1</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                <div id="musicControls" class="text-center">
+                                                <button class="btn btn-warning btn-xs theme-button1">
+                                                  <span class="fa fa-music"></span> Play Song!</button>
+                                                <button class="btn btn-dark btn-xs pause-button1">
+                                                  <span class="fa fa-pause"></span> Pause Song</button>
+                                              </div>
+                                </div>
+                                </div>
+                         </div>
+                         
+                        <div class="col-sm-6">
+                                <div class="card">
+                                <div class="card-body">
+                                <h5 class="card-title">Record 2</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                <div id="musicControls" class="text-center">
+                                                <button class="btn btn-warning btn-xs theme-button2">
+                                                  <span class="fa fa-music"></span> Play Song!</button>
+                                                <button class="btn btn-dark btn-xs pause-button2">
+                                                  <span class="fa fa-pause"></span> Pause Song</button>
+                                              </div>
+                                </div>
+                        </div>
+                        </div>
                 </div>
+<br>
+
+                <div class="row">
+                        <div class="col-sm-6">
+                                <div class="card">
+                                <div class="card-body">
+                                 <h5 class="card-title">Record 3</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+                                <div id="musicControls" class="text-center">
+                                                <button class="btn btn-warning btn-xs theme-button3">
+                                                  <span class="fa fa-music"></span> Play Song!</button>
+                                                <button class="btn btn-dark btn-xs pause-button3">
+                                                  <span class="fa fa-pause"></span> Pause Song</button>
+                                              </div>
+                                </div>
+                                </div>
+                        </div>
+                        <div class="col-sm-6">
+                                <div class="card">
+                                <div class="card-body">
+                                <h5 class="card-title">Record 4</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                <div id="musicControls" class="text-center">
+                                                <button class="btn btn-warning btn-xs theme-button4">
+                                                  <span class="fa fa-music"></span> Play Song!</button>
+                                                <button class="btn btn-dark btn-xs pause-button4">
+                                                  <span class="fa fa-pause"></span> Pause Song</button>
+                                              </div>
+                                </div>
+                        </div>
+                        </div>
+                </div>
+
+                        
         </div>
 
-        <div class="box">
-                <img id="image1" src="Images/a4.jpg" class="img-thumbnail"/>
-                <div class="middle">
-                        <div class="text">Prodigy</div>
+
+</section>
+
+
+
+<section>
+                <a name="Events"></a>           
+<div class="container">
+        <h2>Events</h2>
+        <div class="card-group">
+        <div class="card">
+                <img class="card-img-top" src="Images/a3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Get Tickets</a>
+                        </div>
+
+
+                
+        </div> 
+        
+        <div class="card">
+                        <img class="card-img-top" src="Images/a4.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Get Tickets</a>
+                                </div>
+        
+        
+                        
+         </div>   
+         <div class="card">
+                        <img class="card-img-top" src="Images/a5.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Get Tickets</a>
+                                </div>
+        
+        
+                        
+         </div>
+
+         <div class="card">
+                        <img class="card-img-top" src="Images/a7.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Get Tickets</a>
+                                </div>
+        
+        
+                        
+         </div>
+
+
+</div>
+</div>
+</section>
+  
+
+<section>
+                <a name="Contacts"></a>
+        <div class="container">
+                <h2><a name="Contacts">Contacts</a></h2>
+                <div id="contacts">
+                        <form>
+                                <label>Name:</label><br>
+                                <input type="text" name="name" placeholder="Your name.."><br>
+                                <label>Email:</label><br>
+                                <input type="text" name="email" placeholder="Your email.."> <br>
+                                <label>Message:</label><br>
+                                <textarea name="message" rows="7" cols="113"
+                                        placeholder="Tell me what you need"></textarea><br><br>
+                                
+                                <button class="btn btn-primary">Submit</button><br>
+                               
+                        </form>
+                </div>
+                </div>
+</section>
+
+
+
+
+        
+<footer class="footer">
+        <div class="row">
+            
+<div class="copyright">
+                                        
+<span class="social">
+                <a class="fab fa-twitter" href="https://twitter.com/?lang=en" target="new"></a>
+                <a class="fab fa-facebook" href="https://www.facebook.com" target="new"></a>
+                <a class="fab fa-instagram" href="https://www.instagram.com/?hl=en" target="new"></a>
+                <a class="fab fa-pinterest" href="https://www.pinterest.com" target="new"></a>
+                <a class="fab fa-youtube" href="https://www.youtube.com" target="new"></a>
+                <a class="fab fa-linkedin" href="https://www.linkedin.com" target="new"></a>
+
+
+                                </span>  
+                                <br>
+                                <br>
+                                                
+                                © 2019: Maria Dmitrieva. All Rights Reserved
                 </div>
         </div>
         
-        <div class="box">
-                <img id="image1" src="Images/a5.jpg" class="img-thumbnail"/>
-                <div class="middle">
-                        <div class="text">Prodigy</div>
-                </div>
-        </div>
-        <div class="box">
-                <img id="image1" src="Images/a7.jpg" class="img-thumbnail"/>
-                <div class="middle">
-                        <div class="text">Prodigy</div>
-                </div>
-        </div>
-        <div class="box">
-                <img id="image1" src="Images/b2.jpg" class="img-thumbnail"/>
-                <div class="middle">
-                        <div class="text">Prodigy</div>
-                </div>
-        </div>
-        <div class="box">
-                <img id="image1" src="Images/b3.jpg" class="img-thumbnail"/>
-                <div class="middle">
-                        <div class="text">Prodigy</div>
-                </div>
-        </div>
-</container>
-
-
-
-<section class="events">
-        <h2><a name="Events">Events</a></h2>
-        <ul class="list-unstyled">
-                <li class="media my-4">
-                  <img src="Images/b3.jpg" class="mr-3" alt="Concert1"/>
-                  <div class="media-body">
-                    <h5 class="mt-0 mb-1">List-based media object</h5>
-                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                  </div>
-                  <div id="tickets">
-                        <button class="button">Get Tickets</button>
-                  </div>
-                </li>
-                <li class="media my-4">
-                  <img src="Images/b2.jpg" class="mr-3" alt="Concert2"/>
-                  <div class="media-body">
-                    <h5 class="mt-0 mb-1">List-based media object</h5>
-                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                  </div>
-                  <div id="tickets">
-                        <button class="button">Get Tickets</button>
-                  </div>
-                </li>
-                <li class="media my-4">
-                  <img src="Images/a7.jpg" class="mr-3" alt="Concert3"/>
-                  <div class="media-body">
-                    <h5 class="mt-0 mb-1">List-based media object</h5>
-                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                  </div>
-                  <div id="tickets">
-                        <button class="button">Get Tickets</button>
-                  </div>
-                </li>
-              </ul>
-</section>
-
-<section class="contacts">
-        <h2><a name="Contacts">Contacts</a></h2>
-        <div id="contacts">
-        <form>
-                Name:<br>
-                <input type="text" name="name" placeholder="Your name.."><br>
-                Email:<br>
-                <input type="text" name="email" placeholder="Your email.."> <br>
-                Message:<br>
-                <textarea name="message" rows="7" cols="113" placeholder="Tell me what you need"></textarea><br><br>
-
-                <button class="button">Submit</button><br>
-        </form>
-    </div>
-    
-</section>
-
-<div class="icon-bar">
-        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
-        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
-        <a href="#" class="google"><i class="fa fa-google"></i></a> 
-        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-        <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
-</div>
-
-<footer>
-                <p id="footer">Maria Dmitrieva. All Rights Reserved. 2019. <br>Designed by Alex Mojnov</p>
+                
+                <!-- Copyright -->
+              
 </footer>
 
 
 
 
+<script>
+$(document).ready(function() {
+
+
+
+// Gets Link for Theme Song
+var audioElement1 = document.createElement("audio");
+audioElement1.setAttribute("src", "Audio/dummy-audio.mp3");
+
+// Theme Button
+$(".theme-button1").on("click", function() {
+  audioElement1.play();
+});
+$(".pause-button1").on("click", function() {
+  audioElement1.pause();
+});
+
+var audioElement2 = document.createElement("audio");
+audioElement2.setAttribute("src", "Audio/B1.mp3");
+
+// Theme Button
+$(".theme-button2").on("click", function() {
+  audioElement2.play();
+});
+$(".pause-button2").on("click", function() {
+  audioElement2.pause();
+});
+
+var audioElement3 = document.createElement("audio");
+audioElement3.setAttribute("src", "Audio/T1.mp3");
+
+// Theme Button
+$(".theme-button3").on("click", function() {
+  audioElement3.play();
+});
+$(".pause-button3").on("click", function() {
+  audioElement3.pause();
+});
+
+var audioElement4 = document.createElement("audio");
+audioElement4.setAttribute("src", "Audio/V1.mp3");
+
+// Theme Button
+$(".theme-button4").on("click", function() {
+  audioElement4.play();
+});
+$(".pause-button4").on("click", function() {
+  audioElement4.pause();
+});
+
+
+
+
+
+});
+
+</script>
+
+
 </body>
+
 </html>
